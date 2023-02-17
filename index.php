@@ -23,10 +23,11 @@
         Il paragrafo ha  <?php echo strlen ($paragrafoNostraScelta) ?> parole
     </p>  
 
+
     <!-- 2, Una parola da censurare viene passata dall'utente tramite parametro GET. -->
     <form action="" method="GET">
 
-            <input type="text" name="parolaDaCensurare" placeholder="Inserisci il nome di una persona...">
+            <input type="text" name="parolaDaCensurare" placeholder="Inserisci la parola da censurare">
             <button>
                 Cerca
             </button>
